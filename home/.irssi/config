@@ -8,12 +8,14 @@ settings = {
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = {
+    autolog = "yes";
     autolog_path = "~/.irclogs/$tag/$0.log";
     hilight_color = "%y";
+    autolog_level = "MSGS PUBLIC TOPICS";
   };
 };
 ignores = (
-  { level = "JOINS PARTS QUITS NICKS"; },
+  { level = "PARTS JOINS QUITS NICKS"; },
   { level = "MODES"; channels = ( "&bitlbee" ); }
 );
 #logs = { };
