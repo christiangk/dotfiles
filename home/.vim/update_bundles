@@ -1,19 +1,20 @@
 #!/usr/bin/env ruby
 
 git_bundles = [ 
-  'git://github.com/airblade/vim-gitgutter.git',
-  'git://github.com/arafatm/todohabit.vim.git',
-  'git://github.com/mattn/gist-vim.git',
-  'git://github.com/msanders/snipmate.vim.git',
-  'git://github.com/scottmcginness/vim-jquery.git',
-  'git://github.com/thinca/vim-ft-markdown_fold.git',
-  'git://github.com/tpope/vim-fugitive.git',
-  'git://github.com/tpope/vim-rails.git',
-  'git://github.com/tpope/vim-bundler.git',
-  'git://github.com/vim-ruby/vim-ruby.git',
-  'git://github.com/vim-scripts/JavaScript-Indent.git',
-  'git://github.com/vim-scripts/Markdown.git',
-  'git://github.com/rodjek/vim-puppet.git'
+  'git://github.com/airblade/vim-gitgutter.git',      # git gutter
+  'git://github.com/arafatm/todohabit.vim.git',       # my todohabit
+  'git://github.com/mattn/gist-vim.git',              # gist
+  'git://github.com/msanders/snipmate.vim.git',       # snipmate
+  'git://github.com/scottmcginness/vim-jquery.git',   # jquery
+  'git://github.com/thinca/vim-ft-markdown_fold.git', # markdown-fold
+  'git://github.com/tpope/vim-fugitive.git',          # fugitive
+  'git://github.com/tpope/vim-rails.git',             # rails
+  'git://github.com/tpope/vim-bundler.git',           # bundler
+  'git://github.com/vim-ruby/vim-ruby.git',           # ruby
+  'git://github.com/vim-scripts/JavaScript-Indent.git', # JS indent
+  'git://github.com/vim-scripts/Markdown.git',        # markdown
+  'git://github.com/rodjek/vim-puppet.git',           # puppet
+  'https://github.com/vim-scripts/vim-coffee-script'  # coffeescript
 ]
 
 vim_org_scripts = [
